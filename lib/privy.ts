@@ -1,8 +1,8 @@
-export const PRIVY_APP_ID = process.env.NEXT_PUBLIC_PRIVY_APP_ID!
+export const PRIVY_APP_ID = process.env.NEXT_PUBLIC_PRIVY_APP_ID || "clxplaceholder12345"
 
 if (!process.env.NEXT_PUBLIC_PRIVY_APP_ID) {
-  throw new Error(
-    'NEXT_PUBLIC_PRIVY_APP_ID is not defined. Set it in your .env file.'
+  console.warn(
+    'Warning: NEXT_PUBLIC_PRIVY_APP_ID is not defined. Please add it to your environment variables.'
   )
 }
 
