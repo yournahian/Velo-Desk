@@ -1,36 +1,29 @@
 {
-  "name": "react-example",
+  "name": "service-details",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "npm run dev --prefix service-details",
-    "build": "npm run build --prefix service-details",
-    "start": "npm run start --prefix service-details",
-    "lint": "npm run lint --prefix service-details"
+    "dev": "next dev --port 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@google/genai": "^2.4.0",
     "@privy-io/react-auth": "^1.96.0",
-    "@tailwindcss/vite": "^4.1.14",
-    "@vitejs/plugin-react": "^5.0.4",
     "ethers": "^6.13.0",
     "lucide-react": "^0.546.0",
-    "react": "^19.0.1",
-    "react-dom": "^19.0.1",
-    "vite": "^6.2.3",
-    "express": "^4.21.2",
-    "dotenv": "^17.2.3",
-    "motion": "^12.23.24"
+    "motion": "^12.23.24",
+    "next": "^15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
     "@types/node": "^22.14.0",
-    "autoprefixer": "^10.4.21",
-    "esbuild": "^0.25.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "tailwindcss": "^4.1.14",
-    "tsx": "^4.21.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.3",
-    "@types/express": "^4.17.21"
+    "typescript": "^5.8.0"
   }
 }
