@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gigi: #ff5c00;
+  --color-gigi-dark: #e04f00;
+  --color-gigi-light: #fff0e6;
+  --color-velo: #ff5c00;
+  --color-velo-dark: #e04f00;
+  --color-velo-light: #fff0e6;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db transparent;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Fiverr Clone",
+  "description": "A high-fidelity interactive clone of the Fiverr user dashboard with search, gig sliders, category nav, messaging, and project briefs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
